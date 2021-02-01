@@ -9,7 +9,7 @@
 	margin: 20px 0 20px 0;
 }
 
-.login-container { 
+.register-container { 
 
 	width: 25%;
 	margin: auto;
@@ -25,12 +25,12 @@
 	margin-bottom: 30px;
 }
 
-.login-button-container {
+.register-button-container {
 	width: 100%;
 	justify-content: center;
 	display: flex;
 }
 
-.login-button {
+.register-button {
 	width: 100px;
 }

@@ -14,12 +14,12 @@ export default class Header extends Component {
 						<Link to={'/'}>Home</Link>
 					</Nav>
 					<div>
-                        <Link to={'/login'}>
-                            <Button variant="outline-dark">Log In</Button>
-                        </Link>{' '}
-                        <Link to={'/register'}>
-						    <Button variant="dark">Register</Button>
-                        </Link>
+						<Link to={'/login'}>
+							<Button variant="outline-dark">Log In</Button>
+						</Link>{' '}
+						<Link to={'/register'}>
+							<Button variant="dark">Register</Button>
+						</Link>
 					</div>
 				</Navbar.Collapse>
 			</Navbar>

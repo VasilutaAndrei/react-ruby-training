@@ -8,6 +8,8 @@ import {
 import Footer from './components/layout/footer';
 import Home from './pages/home';
 import LogIn from './pages/log-in';
+import Register from './pages/register';
+import Product from './pages/product';
 
 function App() {
 	return (
@@ -19,6 +21,10 @@ function App() {
 						<Route path="/login">
 							<LogIn />
 						</Route>
+						<Route path="/register">
+							<Register />
+						</Route>
+						<Route exact path="/product/:id" component={Product}></Route>
 						<Route path="/">
 							<Home />
 						</Route>
