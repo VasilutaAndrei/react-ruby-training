@@ -1,0 +1,11 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(41,50,61,0.75);
+    min-height: 75px;
+    color: white;
+    text-align: center;
+    flex-direction: row;
+}

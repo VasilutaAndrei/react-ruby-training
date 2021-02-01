@@ -1,0 +1,8 @@
+.featured-products {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 80px 25% 0 25%;
+    align-content: center;
+    flex-direction: row;
+}
